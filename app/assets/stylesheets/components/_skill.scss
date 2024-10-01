@@ -1,0 +1,18 @@
+#skills .heading h2 {
+  color: $blue;
+}
+#skills .progress{
+  height: 45px;
+  margin: 30px 20px;
+}
+#skills .progress:last-child {
+  margin-bottom: 0px;
+}
+#skills .progress-bar {
+  background-color: $blue;
+}
+
+#skills .progress-bar h5 {
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 3px;
+}
