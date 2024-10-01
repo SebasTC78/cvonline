@@ -16,9 +16,10 @@
 /* GENERAL */
 body {
   font-family: "Lato", sans-serif;
-
-
+  margin: 0;
+  height: 100vh;
   }
+
   h1,h2,h3,h4,h5,h6 {
       font-weight: bold;
   }
@@ -45,7 +46,7 @@ body {
   .divider {
       width: 100px;
       height: 2px;
-      background-color: #d82c2e;
+      background-color: $blue;
       margin: 0 auto 20px;
   }
   .divider.white {
@@ -58,7 +59,7 @@ body {
 
   /* NAVBAR */
   .navbar{
-      background-color: #d82c2e;
+      background-color: $blue;
       letter-spacing: 2px;
       text-transform: uppercase;
       font-weight: bold;
@@ -75,12 +76,12 @@ body {
   .nav-link.active,
   .nav-link:hover{
       background-color: white;
-      color: #d82c2e !important;
+      color: $blue !important;
   }
   /* ABOUT */
 
   #about {
-      background-color: #d82c2e;
+      background-color: $blue;
   }
 
   .profile-picture {
@@ -108,12 +109,12 @@ body {
 
   .button1:hover{
       background: white;
-      color: #d82c2e;
+      color: $blue;
   }
 
   /* SKILLS */
   #skills .heading h2 {
-      color: #d82c2e;
+      color: $blue;
   }
   #skills .progress{
       height: 45px;
@@ -123,7 +124,7 @@ body {
       margin-bottom: 0px;
   }
   #skills .progress-bar {
-      background-color: #d82c2e;
+      background-color: $blue;
   }
 
   #skills .progress-bar h5 {
@@ -135,7 +136,7 @@ body {
   /* EXPERIENCE */
 
   #experience {
-      background-color: #d82c2e;
+      background-color: $blue;
   }
   #experience .heading h2{
       color: white;
@@ -151,7 +152,7 @@ body {
           position: absolute;
           width: 5px;
           margin-left: -2.5px;
-          background-color: #333;
+          background-color: white;
           left: 50%;
   }
   .timeline > li {
@@ -167,7 +168,7 @@ body {
       clear: both;
   }
   .timeline li .timeline-badge{
-      color: #d82c2e;
+      color: $blue;
       width: 50px;
       line-height: 50px;
       font-size: 20px;
@@ -224,12 +225,12 @@ body {
       font-size: 20px;
   }
   .timeline-heading h4{
-      color: #d82c2e;
+      color: $blue;
   }
 
   /* Education */
   #education .heading h2 {
-      color: #d82c2e;
+      color: $blue;
       margin: 15px 0px;
   }
   .education-block{
@@ -252,7 +253,7 @@ body {
       font-size: 35px;
   }
   .education-block h3{
-      color: #d82c2e;
+      color: $blue;
       margin: 15px;
   }
   .education-block h4{
@@ -262,7 +263,7 @@ body {
 
   /* Portfolio */
   #portfolio {
-      background-color: #d82c2e;
+      background-color: $blue;
   }
   #portfolio .heading h2{
       color: white;
@@ -279,23 +280,4 @@ body {
   }
   #portfolio .col-md-4 {
       margin-bottom: 20px;
-  }
-
-  /* FOOTER */
-  footer{
-      background-color: #333;
-      padding: 20px 0 40px;
-  }
-  footer span {
-      color: #d82c2e;
-      font-size: 25px;
-      line-height: 35px;
-  }
-  footer span:hover{
-      font-size: 27px;
-  }
-
-  footer h5{
-      color: white;
-      font-weight: normal;
   }
